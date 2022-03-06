@@ -27,7 +27,22 @@ function buildQuiz(){
     }   
 
 
-function showResults(){}
+function showResults(){
+    const answerContainers = quizContainer.querySelectorAll('.answers');
+    let numCorrect =0;
+    myQuestions.forEach( (currentQuestion, questionNumber) => {
+        const answerContainer = answerContainers[questionNumber];
+        const selector = `input[name=question${questionNumber}]:checked`;
+        const userAnswer = (answerContainer.querySelector(selector) || {}).value;
+
+        if(userAnswer === currentQuestion.correctAnswer){
+            numCorrect++;
+        }
+    });
+
+// show number of correct answers out of total
+resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
+}
 
 const quizContainer = document.getElementById('quiz');
 const resultsContainer = document.getElementById('results');
