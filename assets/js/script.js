@@ -1,6 +1,31 @@
 // code from sitepoint
 
-function buildQuiz(){}
+function buildQuiz(){
+     // create an output variable to HTML including questions and answer choices
+     const output =[];
+     myQuestions.forEach(
+         (currentQuestion, questionNumber) => {
+             const answers = [];
+             for(letter in currentQuestion.answers){
+                 answers.push(
+                   `<label>
+                     <input type="radio" name="question${questionNumber}" value="${letter}">
+                     ${letter} :
+                     ${currentQuestion.answers[letter]}
+                   </label>`
+                 );
+               }
+               // add questions,answers to the output
+               output.push(
+                   `<div class="question"> ${currentQuestion.question} </div>
+                   <div class="answers"> ${answers.join('')} </div>`
+               );
+            }
+        );
+        //  combine output list into one string of HTML and put it on the page
+        quizContainer.innerHTML = output.join('');
+    }   
+
 
 function showResults(){}
 
