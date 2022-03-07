@@ -19,6 +19,7 @@
  - The Game Results:  
    - Shows how many right answer from the 13 questions.
    - No answer = wrong answer
+
      ![1](assets/images/1.jpeg) 
      ![2](assets/images/13.jpeg)
 
@@ -66,11 +67,11 @@
 
 ### Desktop 
 
-![](assets/images/.jpeg)
+![](assets/images/dtop.jpeg)
 
 ### Mobile 
 
-![](assets/images/.jpeg)
+![](assets/images/mobil.jpeg)
 
 ---
 
