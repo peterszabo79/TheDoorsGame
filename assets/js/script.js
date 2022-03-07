@@ -1,6 +1,6 @@
+/*jshint esversion: 6 */
 // code from sitepoint
-
-function buildQuiz(){
+function buildQuiz() {
      // create an output variable to HTML including questions and answer choices
      const output =[];
      myQuestions.forEach(

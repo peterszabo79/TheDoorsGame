@@ -2,6 +2,7 @@
 ## Welcome to [The Doors Game](https://peterszabo79.github.io/project-no2/index.html)!
 
 ### The Doors Game contains 13 easy questions about a famous rock band: The DOORS, to measure the basic knowledge about the band. Users who try this small test can choose from three answers - all answers are music related, just need to choose the right ones.
+![respon](assets/images/doorsscrs.jpeg)
 
 ---
 
@@ -9,13 +10,20 @@
 ## Existing Features
 - Header:
   - This header tells the user what is the name of the Game.
+  ![respon](assets/images/doors.jpeg)
+
 - The Game Options:
    - 13 questions each with 3 answers, only one of them is the right one.
+  ![respon](assets/images/question.jpeg)
+
  - The Game Results:  
    - Shows how many right answer from the 13 questions.
-   - No answer= wrong answer
+   - No answer = wrong answer
+     ![1](assets/images/1.jpeg) 
+     ![2](assets/images/13.jpeg)
+
 - The Footer:
-   - a link to the doors website open in a new tab
+   - a link to the doors website opens in a new tab
 
 ## Features Left to Implement
 - When there is time, I would like to expand this game, with a timer, random questions etc.
@@ -23,20 +31,21 @@
 ## Design
 - Color Scheme:
   - Used color are:
-     ![1](assets/images/)
-     ![2](assets/images/)
-     ![3](assets/images/) 
+     - Black
+     - Grey
+     - Lightgrey
+     - Whitesmoke
 
 - Typography:
   - The fonts used are taken from google fonts named 'Roboto' and 'Rubik' with a fall-back of sans-serif.
 
----
+
 ---
 
 # Testing
 - I tested playing this game in different browsers: Chrome, Safari, Firefox, Opera.
-- I confirmed that the game results are always correct.
-- I confirmed that the colors and fonts chosen are easy to read.
+- I confirmed that the game is counting the right answers always correctly.
+- I confirmed that the colours and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
 - 
 
 ---
@@ -46,12 +55,13 @@
   - No errors were returned when passing through the official W3C validator. All pages were tested: Home, Gallery and Contact.
 
 - CSS
-  - No errors were returned when passing through the offical (Jigsaw) validator.
+  - No errors were returned when passing through the official (Jigsaw) validator.
 
 - JS:
+  - No errors were returned when passing through the JSHint validator,but i have warnings.
 
 - Accessibility
-  - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through Lighthouse in Devtools.
+  - I confirmed that the colours and fonts chosen are easy to read and accessible by running it through Lighthouse in Devtools.
 
 
 ### Desktop 
@@ -95,6 +105,9 @@ Process for saving, commiting and pushing it to remote repository goes as follow
  - `git push` to update work to GitHub
 
 ---
+
+# Issues
+ - I got warnings when I was passing through the code the JSHint validator.On stackoverflow.com found ` /*jshint esversion: 6 */ ` fixed most of them. but still have three warnings.
 
 # Credits
 <details>
