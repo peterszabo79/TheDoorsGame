@@ -1,7 +1,7 @@
 # The Doors Game
-## Welcome to [The Doors Game](https://peterszabo79.github.io/project-no2/index.html)!
+## Welcome to [The Doors Quiz](https://peterszabo79.github.io/project-no2/index.html)!
 
-### The Doors Game contains 13 easy questions about a famous rock band: The DOORS, to measure the basic knowledge about the band. Users who try this small test can choose from three answers - all answers are music related, just need to choose the right ones.
+### The Doors Quiz contains 13 easy questions about a famous rock band: The DOORS, to measure the basic knowledge about the band. Users who try this small test can choose from three answers - all answers are music related, just need to choose the right ones.
 ![respon](assets/images/doorsscrs.jpeg)
 
 ---
@@ -9,7 +9,7 @@
 # Features 
 ## Existing Features
 - Header:
-  - This header tells the user what is the name of the Game.
+  - This header tells the user what is the name of the game.
   ![respon](assets/images/doors.jpeg)
 
 - The Game Options:
@@ -47,19 +47,19 @@
 - I tested playing this game in different browsers: Chrome, Safari, Firefox, Opera.
 - I confirmed that the game is counting the right answers always correctly.
 - I confirmed that the colours and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
-- 
+
 
 ---
 
 # Validator Testing
 - HTML
-  - No errors were returned when passing through the official W3C validator. All pages were tested: Home, Gallery and Contact.
+  - No errors were returned when passing through the official W3C validator.
 
 - CSS
   - No errors were returned when passing through the official (Jigsaw) validator.
 
 - JS:
-  - No errors were returned when passing through the JSHint validator,but i have warnings.
+  - No errors were returned when passing through the JSHint validator, but I have warnings.
 
 - Accessibility
   - I confirmed that the colours and fonts chosen are easy to read and accessible by running it through Lighthouse in Devtools.
@@ -114,8 +114,7 @@ Process for saving, commiting and pushing it to remote repository goes as follow
 <details>
 <li>The "How to Make a Simple JavaScript Quiz" from sitepoint.com Walkthrough Project helped me from the beginning through to the finish of my project
 </li>
-<li>wikipedia</li>
-<li>my first project-readme
+<li>Wikipedia - correct answers can be found on wikipedia.</li>
 <li>My cohort channel helped in fixing typing errors.</li>
 <li>Google Fonts was used to choose my fonts, Roboto and Rubik.</li>
 <li>Gitpod “Tips and Tricks” used during writing my project.</li>
@@ -124,5 +123,6 @@ Process for saving, commiting and pushing it to remote repository goes as follow
 <li>Grammarly was used to correct my text.</li>
 <li>web.dev was used to test and improve UX.</li>
 <li>Chrome Devtools was used for fixing my code all the way through my project.</li>
+<li>My first project - Peter's Garage helped me for writing my README. </li>
 <li>The Code Institute “rock-paper-scissor” Walkthrough Project helped me for writing my README.</li>
 </details>
