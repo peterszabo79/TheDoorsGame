@@ -19,15 +19,17 @@
  - The Game Results:  
    - Shows how many right answer from the 13 questions.
    - No answer = wrong answer
+   - 5 minutes timer, but can finish the quiz after it's run out.
 
      ![1](assets/images/1.jpeg) 
      ![2](assets/images/13.jpeg)
+     ![3](assets/images/timer.jpeg)
 
 - The Footer:
    - a link to the doors website opens in a new tab
 
 ## Features Left to Implement
-- When there is time, I would like to expand this game, with a timer, random questions etc.
+- When there is time, I would like to expand this game, with a timer that can finish the game if 5 minutes it's gone, random questions etc.
 
 ## Design
 - Color Scheme:
@@ -46,7 +48,10 @@
 # Testing
 - I tested playing this game in different browsers: Chrome, Safari, Firefox, Opera.
 - I confirmed that the game is counting the right answers always correctly.
-- I confirmed that the colours and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
+- I confirmed that the colours and fonts chosen are easy to read and accessible by running it through lighthouse in dev tools.
+- I confirmed that the timer shows a message when 5 minutes are gone.
+![1](assets/images/time%20out.jpeg)
+
 
 
 ---
@@ -125,4 +130,5 @@ Process for saving, commiting and pushing it to remote repository goes as follow
 <li>Chrome Devtools was used for fixing my code all the way through my project.</li>
 <li>My first project - Peter's Garage helped me for writing my README. </li>
 <li>The Code Institute “rock-paper-scissor” Walkthrough Project helped me for writing my README.</li>
+<li>Timer from "yo.fun"</li>
 </details>
