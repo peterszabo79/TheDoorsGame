@@ -2,7 +2,7 @@
 ## Welcome to [The Doors Quiz](https://peterszabo79.github.io/project-no2/index.html)!
 
 ### The Doors Quiz contains 13 easy questions about a famous rock band: The DOORS, to measure the basic knowledge about the band. Users who try this small test can choose from three answers - all answers are music related, just need to choose the right ones.
-![respon](assets/images/doorsscrs.jpeg)
+![respon](assets/images/respon.jpeg)
 
 ---
 
@@ -50,6 +50,7 @@
 - I confirmed that the game is counting the right answers always correctly.
 - I confirmed that the colours and fonts chosen are easy to read and accessible by running it through lighthouse in dev tools.
 - I confirmed that the timer shows a message when 5 minutes are gone.
+
 ![1](assets/images/time%20out.jpeg)
 
 
