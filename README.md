@@ -1,5 +1,5 @@
 # The Doors Game
-## Welcome to [The Doors Quiz](https://peterszabo79.github.io/project-no2/index.html)!
+## Welcome to [The Doors Quiz](https://peterszabo79.github.io/TheDoorsGame/)!
 
 ### The Doors Quiz contains 13 easy questions about a famous rock band: The DOORS, to measure the basic knowledge about the band. Users who try this small test can choose from three answers - all answers are music related, just need to choose the right ones.
 ![respon](assets/images/respon.jpeg)
@@ -88,7 +88,7 @@
   - Select Main Branch and click Save.
   - The page provides a link to the completed website.
 
-The live link can be found here - [The Doors Quiz](https://peterszabo79.github.io/project-no2/index.html)
+The live link can be found here - [The Doors Quiz](https://peterszabo79.github.io/TheDoorsGame/)
 
 
 ---
